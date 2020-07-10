@@ -1,10 +1,10 @@
-body{
+body {
 		padding: 0;
 		margin: 0;
 	    font-size: 20px;
 	    font-family: Inter;
 	}
-	.jumbotron{
+	.jumbotron {
 		padding: 0;
 	}
 	img{
@@ -16,14 +16,14 @@ body{
 	    font-size: 16px;
 	    letter-spacing: 1px;
 	}
-	.navbar-light .navbar-toggler-icon{
+	.navbar-light .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
 	.mysec {
 	    background-image: url(../img/bg.png);
 	    background-repeat: no-repeat;
 	    padding:15px 0 100px 0 ;
 	    margin-bottom: 0;
-	    background-color: #fff;
+	    background-color: #170B33;
 	    height: auto;
 	    border-radius: 0;
 	}
@@ -42,12 +42,13 @@ body{
 	}
 	.main-desc {
 	    color: #fff;
-	    padding-top: 100px;
+		padding-top: 100px;
+		font-family: 'Noto Sans JP', sans-serif;
 	}
 	.main-desc p {
 	    z-index: 9;
 	    text-align: justify;
-	    position: relative;
+		position: relative;
 	}
 	.main-desc h1 {
 	    font-family: "Noto Sans JP";
@@ -67,7 +68,7 @@ body{
 	    top: 50px;
 	}
 	.dl-btn {
-	    background: #0f0f0f;
+	    background: #212121;
 	    width: max-content;
 	    padding: 10px 20px 0;
 	    display: flex;
@@ -93,7 +94,6 @@ body{
 	    font-size: 15px;
 	    font-family: Inter;
 	}
-
 
 	.imgs img{
 		max-width: 320px;
@@ -137,7 +137,7 @@ body{
 	}
 
 	.second-part{
-		background: #fff;
+		background: #170B33;
 		padding: 70px 0;
 	}
 	.second-part .row {
@@ -158,9 +158,17 @@ body{
 		font-size: 35px;
 		font-weight: 600;
 		margin-bottom: 30px;
+		color: #fff;
+		opacity: 0.9;
+		font-family: 'Inter', sans-serif;
+		font-weight: 700;
 	}
 	.second-part p{
 		font-size: 18px;
+		color: #fff;
+		opacity: 0.8;
+		font-family: 'Inter', sans-serif;
+		font-weight: 600;
 	}
 	.second-part .col-sm-6:first-child:before {
 	    content: '';
@@ -175,12 +183,7 @@ body{
 	    left: 50%;
 	    z-index: 3;
 	}
-	footer {
-    	background: #212121;
-	}
-	footer p{
-		font-size: 15px;
-	}
+
 	@media only screen and (min-width: 2000px) {
 	  .mysec {
 	      background-repeat-x: repeat;
@@ -229,10 +232,10 @@ body{
 	  }
 	  .main-desc h1{
 	  		font-size: 30px;
-			color: #2a2a2a;
+			color: #fff;
 	  }
 	  .main-desc p{
-			color: #2a2a2a;
+			color: #fff;
 		}
 	  .imgs img {
 	      width:190px;
